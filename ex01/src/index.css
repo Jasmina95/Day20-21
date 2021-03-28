@@ -12,13 +12,11 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   row-gap: 6px;
 }
 
 .text-container {
   width: 50%;
-  justify-content: space-between;
 }
 
 .keyboard-container {
