@@ -9,19 +9,13 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h2>Virtual Keyboard</h2>
-    <div class="container">
-      <div class="text-container">
-        <textarea
-          name="TEXT AREA"
-          cols="30"
-          rows="10"
-          placeholder="TEXT AREA"
-          id="myTextarea"
-        ></textarea>
+    <h2 id="title">Virtual Keyboard</h2>
+    <div id="container">
+      <div id="text-container">
+        <textarea name="TEXT AREA" cols="30" rows="10" placeholder="TEXT AREA" id="myTextarea"></textarea>
       </div>
-      <div class="keyboard-container">
-        <div class="first-two-rows">
+      <div id="keyboard-container">
+        <div id="first-two-rows">
           <button type="button" value="1" class="key">1</button>
           <button type="button" value="2" class="key">2</button>
           <button type="button" value="3" class="key">3</button>
@@ -32,9 +26,7 @@
           <button type="button" value="8" class="key">8</button>
           <button type="button" value="9" class="key">9</button>
           <button type="button" value="0" class="key">0</button>
-          <button type="button" value="back-space" id="back-space" class="key">
-            Back Space
-          </button>
+          <button type="button" value="back-space" id="back-space" class="key">Back Space</button>
           <button type="button" value="q" class="key">q</button>
           <button type="button" value="w" class="key">w</button>
           <button type="button" value="e" class="key">e</button>
@@ -46,7 +38,7 @@
           <button type="button" value="o" class="key">o</button>
           <button type="button" value="p" class="key">p</button>
         </div>
-        <div class="second-two-rows">
+        <div id="second-two-rows">
           <button type="button" value="a" class="key">a</button>
           <button type="button" value="s" class="key">s</button>
           <button type="button" value="d" class="key">d</button>
@@ -57,9 +49,7 @@
           <button type="button" value="k" class="key">k</button>
           <button type="button" value="l" class="key">l</button>
           <button type="button" value="ok" id="ok" class="key">OK</button>
-          <button type="button" value="caps-lock" id="caps-lock" class="key">
-            Caps Lock
-          </button>
+          <button type="button" value="caps-lock" id="caps-lock" class="key">Caps Lock</button>
           <button type="button" value="z" class="key">z</button>
           <button type="button" value="x" class="key">x</button>
           <button type="button" value="c" class="key">c</button>
@@ -69,11 +59,9 @@
           <button type="button" value="m" class="key">m</button>
           <button type="button" value="-" class="key">-</button>
           <button type="button" value="_" class="key">_</button>
-          <button type="button" value="shift" id="shift" class="key">
-            Shift
-          </button>
+          <button type="button" value="shift" id="shift" class="key">Shift</button>
         </div>
-        <div class="last-row">
+        <div id="last-row">
           <button type="button" value=" " class="key" id="space">Space</button>
           <button type="button" id="enter" class="key">Enter</button>
         </div>
