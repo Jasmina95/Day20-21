@@ -47,7 +47,7 @@ button {
   grid-template-rows: repeat(2, 40px);
 }
 
-.back-space {
+#back-space {
   grid-column: span 2;
   grid-row: span 2;
 }
@@ -58,15 +58,15 @@ button {
   grid-template-rows: repeat(2, 40px);
 }
 
-.ok {
+#ok {
   grid-row: span 2;
 }
 
-.caps-lock {
+#caps-lock {
   grid-column: span 2;
 }
 
-.shift {
+#shift {
   grid-column: span 2;
 }
 
@@ -76,11 +76,11 @@ button {
   grid-template-rows: 40px;
 }
 
-.enter {
+#enter {
   grid-column: span 3;
 }
 
-.space {
+#space {
   grid-column: span 9;
 }
 
