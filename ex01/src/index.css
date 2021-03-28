@@ -1,0 +1,133 @@
+html {
+  font-size: 100%;
+}
+h2 {
+  text-align: center;
+  color: rgb(126, 170, 187);
+  /*font-size: x-large;*/
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 6px;
+}
+
+.text-container {
+  width: 50%;
+  justify-content: space-between;
+}
+
+.keyboard-container {
+  width: 50%;
+}
+
+textarea {
+  width: 100%;
+  background-color: rgb(226, 236, 255);
+  border-width: 2px;
+  border-color: rgb(155, 161, 173);
+  box-sizing: border-box;
+}
+
+textarea::placeholder {
+  color: rgb(126, 170, 187);
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-width: 1px;
+}
+
+.first-two-rows {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 40px);
+}
+
+.back-space {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.second-two-rows {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 40px);
+}
+
+.ok {
+  grid-row: span 2;
+}
+
+.caps-lock {
+  grid-column: span 2;
+}
+
+.shift {
+  grid-column: span 2;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px;
+}
+
+.enter {
+  grid-column: span 3;
+}
+
+.space {
+  grid-column: span 9;
+}
+
+/* Media Querry */
+@media screen and (max-width: 1000px) {
+  .keyboard-container {
+    width: 60%;
+  }
+  .text-container {
+    width: 60%;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .keyboard-container {
+    width: 80%;
+  }
+  .text-container {
+    width: 80%;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .keyboard-container {
+    width: 95%;
+  }
+  .text-container {
+    width: 95%;
+  }
+  button {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
