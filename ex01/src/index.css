@@ -1,6 +1,9 @@
 html {
   font-size: 100%;
 }
+html, body {
+  height: 100%;
+}
 #title {
   text-align: center;
   color: rgb(126, 170, 187);
@@ -16,12 +19,10 @@ html {
 
 #text-container {
   width: 50%;
-  height: auto;
 }
 
 #keyboard-container {
   width: 50%;
-  height: auto;
 }
 
 #myTextarea {
