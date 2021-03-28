@@ -14,7 +14,6 @@ arr.forEach((item) => {
         break;
       case item.id === "ok":
         alert(txt.value);
-        txt.value = "";
         break;
       case item.id === "caps-lock":
         if (caps === false) {
