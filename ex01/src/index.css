@@ -22,10 +22,12 @@ body {
 
 #text-container {
   width: 50%;
+  height: auto;
 }
 
 #keyboard-container {
   width: 50%;
+  height: auto;
 }
 
 #myTextarea {
