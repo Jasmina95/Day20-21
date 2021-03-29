@@ -17,7 +17,7 @@ arr.forEach((item) => {
         break;
       case item.id === "caps-lock":
         caps = !caps;
-        break;
+        break
       case item.id === "shift":
         shift = !shift;
         break;
