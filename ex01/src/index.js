@@ -16,18 +16,10 @@ arr.forEach((item) => {
         alert(txt.value);
         break;
       case item.id === "caps-lock":
-        if (caps === false) {
-          caps = true;
-        } else {
-          caps = false;
-        }
+        caps = !caps;
         break;
       case item.id === "shift":
-        if (shift === false) {
-          shift = true;
-        } else {
-          shift = false;
-        }
+        shift = !shift;
         break;
       case caps === true && shift === true:
         txt.value += item.value.toUpperCase();
