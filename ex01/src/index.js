@@ -1,7 +1,7 @@
-var arr = Array.from(document.querySelectorAll(".key"));
-var txt = document.getElementById("myTextarea");
-var caps = false;
-var shift = false;
+const arr = Array.from(document.querySelectorAll(".key"));
+const txt = document.getElementById("myTextarea");
+let caps = false;
+let shift = false;
 
 arr.forEach((item) => {
   item.onclick = function () {
